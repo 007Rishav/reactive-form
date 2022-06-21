@@ -1,0 +1,8 @@
+<h1>Angular Reactive Form</h1>
+
+<form [formGroup]="loginForm" (ngsubmit)="loginUser()">
+   <p>Username <input type="text" placeholder="enter a name"formControlName="user"> </p>
+    
+  <p>Password <input type="password" placeholder="enter password" formControlName="password"></p>
+    <br><br>
+    <button>Login</button>
